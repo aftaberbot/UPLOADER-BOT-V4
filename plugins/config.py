@@ -11,13 +11,13 @@ logging.basicConfig(
 
 class Config(object):
 
-    BOT_TOKEN = os.environ.get("BOT_TOKEN", "")
+    BOT_TOKEN = os.environ.get("BOT_TOKEN", "5622705373:AAFr6ZhUOoan1DFnRVu1ZuOuck594Zo5Z58")
 
-    API_ID = int(os.environ.get("API_ID", 23560088))
+    API_ID = int(os.environ.get("API_ID", 23883349))
 
-    API_HASH = os.environ.get("API_HASH", "999c01704d5c417749a98f4b8785fe88")
+    API_HASH = os.environ.get("API_HASH", "9ae2939989ed439ab91419d66b61a4a4")
 
-    AUTH_USERS = set(int(x) for x in os.environ.get("AUTH_USERS", "5410723702").split())
+    AUTH_USERS = set(int(x) for x in os.environ.get("AUTH_USERS", "5429071679").split())
 
     BANNED_USERS = set(int(x) for x in os.environ.get("BANNED_USERS", "").split())
 
@@ -45,7 +45,7 @@ class Config(object):
 
     DEF_WATER_MARK_FILE = "Use this bot @UploadLinkToFileBot"
 
-    DATABASE_URL = os.environ.get("DATABASE_URL", "")
+    DATABASE_URL = os.environ.get("DATABASE_URL", "mongodb+srv://partamnavai:<password>@cluster0.gxar1rq.mongodb.net/?retryWrites=true&w=majority")
 
     SESSION_NAME = os.environ.get("SESSION_NAME", "UploadLinkToFileBot")
 
@@ -53,11 +53,11 @@ class Config(object):
 
     LOGGER = logging
 
-    OWNER_ID = int(os.environ.get("OWNER_ID", "5410723702"))
+    OWNER_ID = int(os.environ.get("OWNER_ID", "5429071679"))
 
     UPDATES_CHANNEL = os.environ.get("UPDATES_CHANNEL", "")
     
-    BOT_USERNAME = os.environ.get("BOT_USERNAME", "UploadLinkToFileBot")
+    BOT_USERNAME = os.environ.get("BOT_USERNAME", "justrrybot)
 
     PRO_USERS = list(set(int(x) for x in os.environ.get("PRO_USERS", "0").split()))
 
