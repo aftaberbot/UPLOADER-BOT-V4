@@ -11,11 +11,11 @@ logging.basicConfig(
 
 class Config(object):
 
-    BOT_TOKEN = os.environ.get("BOT_TOKEN", "5622705373:AAFr6ZhUOoan1DFnRVu1ZuOuck594Zo5Z58")
+    BOT_TOKEN = os.environ.get("BOT_TOKEN", "5670099056:AAF1M1MbzQ4Dt7GxF_oAeWtyg9ACf2Jg2Ts")
 
-    API_ID = int(os.environ.get("API_ID", 23883349))
+    API_ID = int(os.environ.get("API_ID", 23883349)
 
-    API_HASH = os.environ.get("API_HASH", "9ae2939989ed439ab91419d66b61a4a4")
+    API_HASH = os.environ.get("API_HASH", "9ae2939989ed439ab91419d66b61a4a4)
 
     AUTH_USERS = set(int(x) for x in os.environ.get("AUTH_USERS", "5429071679").split())
 
